@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp&display=swap');
+
+
+    html, body {
+      font-family: "Inter", sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+    header {
+      width: 100%;
+      background-color: #f8f8f8; /* Optional: light background for visibility */
+      padding: 10px 20px;
+      box-sizing: border-box;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between; /* Pushes items to left and right */
+      align-items: center; /* Vertically centers items */
+      width: 100%;
+    }
+    .nav-links {
+      display: flex;
+      gap: 15px; /* Space between links */
+      margin-left: 20px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+    }
+    main {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .main-container {
+      margin-top: 20px;
+      text-align: left;
+      display: table-cell;
+      max-width: 600px;
+      width: 100%;
+    }
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+    .download-btn {
+      padding: 8px 16px;
+      font-size: 14px;
+      background-color: #007bff; /* Blue button */
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 20px;
+    }
+    .download-btn:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+    }
+    .iframe-container {
+      width: 100%;
+      height: calc(100vh - 60px); /* Adjust height to account for header */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      margin-top: 20px;
+    }
+    iframe {
+      width: 800px;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
