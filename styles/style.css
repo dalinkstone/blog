@@ -70,3 +70,7 @@
       border: 0;
       display: block;
     }
+    p img {
+	width: 650px;
+    }
+}
