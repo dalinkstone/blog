@@ -3,16 +3,17 @@
 
     html, body {
       font-family: "Inter", sans-serif;
-      margin: 10px auto;
-      padding: 0 10px;
-      height: 100%;
+      margin: 0;
+      padding: 0;
       max-width: 100%;
+      min-height: 100vh;
     }
     header {
       width: 100%;
       background-color: #f8f8f8; /* Optional: light background for visibility */
       padding: 10px 20px;
       box-sizing: border-box;
+      flex-shrink: 0;
     }
     nav {
       display: flex;
@@ -62,7 +63,6 @@
       justify-content: center;
       align-items: center;
       overflow: hidden;
-      margin-top: 20px;
     }
     iframe {
       width: 800px;
@@ -73,4 +73,4 @@
     p img {
 	width: 650px;
     }
-}
+
